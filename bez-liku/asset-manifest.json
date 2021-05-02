@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bez-liku/static/css/main.c9043e8e.chunk.css",
+    "main.js": "/bez-liku/static/js/main.a636f568.chunk.js",
+    "main.js.map": "/bez-liku/static/js/main.a636f568.chunk.js.map",
+    "runtime-main.js": "/bez-liku/static/js/runtime-main.f14dcab7.js",
+    "runtime-main.js.map": "/bez-liku/static/js/runtime-main.f14dcab7.js.map",
+    "static/js/2.fdaec5c5.chunk.js": "/bez-liku/static/js/2.fdaec5c5.chunk.js",
+    "static/js/2.fdaec5c5.chunk.js.map": "/bez-liku/static/js/2.fdaec5c5.chunk.js.map",
+    "static/js/3.7b194d26.chunk.js": "/bez-liku/static/js/3.7b194d26.chunk.js",
+    "static/js/3.7b194d26.chunk.js.map": "/bez-liku/static/js/3.7b194d26.chunk.js.map",
+    "index.html": "/bez-liku/index.html",
+    "static/css/main.c9043e8e.chunk.css.map": "/bez-liku/static/css/main.c9043e8e.chunk.css.map",
+    "static/js/2.fdaec5c5.chunk.js.LICENSE.txt": "/bez-liku/static/js/2.fdaec5c5.chunk.js.LICENSE.txt",
+    "static/media/rysunek.328e3019.svg": "/bez-liku/static/media/rysunek.328e3019.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f14dcab7.js",
+    "static/js/2.fdaec5c5.chunk.js",
+    "static/css/main.c9043e8e.chunk.css",
+    "static/js/main.a636f568.chunk.js"
+  ]
+}
