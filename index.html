@@ -47,17 +47,17 @@
         bottom: 5px;
         left: 50%;
         height: 3px;
-        width: 0;
-        opacity: 0;
-        transform: translateX(-50%);
+        width: 100%;
         position: absolute;
         background-color: hsl(337, 78%, 44%);
-        transition: 1s width, .5s opacity;
+        opacity: 0;
+        transform: translateX(-50%) scaleX(0);
+        transition: 1s transform, .5s opacity;
         transition-timing-function: cubic-bezier(.24,.01,.1,.98);
         z-index: -1;
       }
       a:hover::before{
-        width: 100%;
+        transform: translateX(-50%) scaleX(1);
         opacity: 1;
       }
       a:hover{
