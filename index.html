@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strange website</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&display=swap");
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Source Code Pro", "Times New Roman";
+        font-weight: 200;
+        font-size: 1.7rem;
+        color: white;
+        background-color: black;
+        background-image: url('./background.jpg');
+        text-align: center;
+      }
+      main{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.418);
+        margin-bottom: 3ch;
+      }
+      .welcome{
+        text-align: center;
+      }
+      h1, h2, h3 {
+        font-weight: normal;
+      }
+      a {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 900;
+        font-style: italic;
+        color: hsl(300, 50%, 25%);
+        position: relative;
+        z-index: 2;
+        transition: .5s color ease-out;
+      }
+      a::before{
+        content: "";
+        bottom: 5px;
+        left: 50%;
+        height: 3px;
+        width: 0;
+        opacity: 0;
+        transform: translateX(-50%);
+        position: absolute;
+        background-color: hsl(337, 78%, 44%);
+        transition: 1s width, .5s opacity;
+        transition-timing-function: cubic-bezier(.24,.01,.1,.98);
+        z-index: -1;
+      }
+      a:hover::before{
+        width: 100%;
+        opacity: 1;
+      }
+      a:hover{
+        color: hsl(337, 78%, 44%);
+      }
+      footer {
+        bottom: 5px;
+        position: absolute;
+        font-size: 0.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 class="welcome">
+        Hello,
+        <a href="https://github.com/KrutonS" class="nickname">Strange</a> here!
+      </h1>
+      <article>
+        <h2>Available pages:</h2>
+        <ul>
+          <li>
+            <a href="https://krutons.github.io/manage-landing-page">Manage Landing Page</a>
+          </li>
+          <li>
+            <a href="https://krutons.github.io/bez-liku">Bez Liku</a>
+          </li>
+        </ul>
+      </article>
+    </main>
+    <footer>
+      <h3>Disclaimer</h3>
+      This website is just for fast navigation for now and will be completely redeveloped
+    </footer>
+  </body>
+</html>
