@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/manage-landing-page/static/css/main.14117580.chunk.css",
-    "main.js": "/manage-landing-page/static/js/main.5fa13f4b.chunk.js",
-    "main.js.map": "/manage-landing-page/static/js/main.5fa13f4b.chunk.js.map",
+    "main.css": "/manage-landing-page/static/css/main.e6e8a014.chunk.css",
+    "main.js": "/manage-landing-page/static/js/main.31645d6a.chunk.js",
+    "main.js.map": "/manage-landing-page/static/js/main.31645d6a.chunk.js.map",
     "runtime-main.js": "/manage-landing-page/static/js/runtime-main.ea391850.js",
     "runtime-main.js.map": "/manage-landing-page/static/js/runtime-main.ea391850.js.map",
-    "static/js/2.08250a5d.chunk.js": "/manage-landing-page/static/js/2.08250a5d.chunk.js",
-    "static/js/2.08250a5d.chunk.js.map": "/manage-landing-page/static/js/2.08250a5d.chunk.js.map",
+    "static/js/2.52db2496.chunk.js": "/manage-landing-page/static/js/2.52db2496.chunk.js",
+    "static/js/2.52db2496.chunk.js.map": "/manage-landing-page/static/js/2.52db2496.chunk.js.map",
     "static/js/3.9bad26bb.chunk.js": "/manage-landing-page/static/js/3.9bad26bb.chunk.js",
     "static/js/3.9bad26bb.chunk.js.map": "/manage-landing-page/static/js/3.9bad26bb.chunk.js.map",
     "index.html": "/manage-landing-page/index.html",
-    "static/css/main.14117580.chunk.css.map": "/manage-landing-page/static/css/main.14117580.chunk.css.map",
-    "static/js/2.08250a5d.chunk.js.LICENSE.txt": "/manage-landing-page/static/js/2.08250a5d.chunk.js.LICENSE.txt",
+    "static/css/main.e6e8a014.chunk.css.map": "/manage-landing-page/static/css/main.e6e8a014.chunk.css.map",
+    "static/js/2.52db2496.chunk.js.LICENSE.txt": "/manage-landing-page/static/js/2.52db2496.chunk.js.LICENSE.txt",
     "static/media/avatar-ali.88f9155c.png": "/manage-landing-page/static/media/avatar-ali.88f9155c.png",
     "static/media/avatar-anisha.484e15bc.png": "/manage-landing-page/static/media/avatar-anisha.484e15bc.png",
     "static/media/avatar-richard.ace8e089.png": "/manage-landing-page/static/media/avatar-richard.ace8e089.png",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ea391850.js",
-    "static/js/2.08250a5d.chunk.js",
-    "static/css/main.14117580.chunk.css",
-    "static/js/main.5fa13f4b.chunk.js"
+    "static/js/2.52db2496.chunk.js",
+    "static/css/main.e6e8a014.chunk.css",
+    "static/js/main.31645d6a.chunk.js"
   ]
 }
