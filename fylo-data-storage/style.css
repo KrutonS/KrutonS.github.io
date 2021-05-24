@@ -1,0 +1,144 @@
+@font-face {
+  font-family: Raleway;
+  src: url(./fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: Raleway;
+  src: url(./fonts/Raleway-Bold.ttf);
+  font-weight: bold;
+}
+body {
+  font-family: Raleway;
+  background-image: url(./images/bg-mobile.png);
+  /* background-position: bottom; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: hsl(229, 57%, 11%);
+  color: hsl(243, 100%, 93%);
+  font-size: 14px;
+}
+.container {
+  height: 90vh;
+  /* background-color: hsla(0, 50%, 50%, 0.1); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.window {
+  background-color: hsl(228, 56%, 26%);
+  padding: 50px 20px;
+  border-radius: 20px;
+  margin: 15px;
+  box-shadow: -20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+.left {
+  border-top-right-radius: 100px;
+  padding: 50px;
+}
+.right {
+  text-align: center;
+  position: relative;
+}
+input[type="button"] {
+  width: 45px;
+  height: 45px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: hsl(229, 57%, 11%);
+  margin-right: 7px;
+  margin-top: 25px;
+  outline: none;
+  transition: background-color 200ms, transform 200ms;
+}
+input[type="button"]:hover {
+  background-color: hsl(229, 57%, 20%);
+  cursor: pointer;
+}
+input[type="button"]:active {
+  background-color: hsl(229, 50%, 23%);
+  transform: scale(2);
+}
+/* progress
+{
+    width: 400px;
+    height: 20px;
+    -webkit-appearance: ;
+} */
+.progress-bar {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  background-color: hsl(229, 57%, 17%);
+  border-radius: 20px;
+}
+.progress-fill {
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+  border-radius: inherit;
+  padding: 8px 0;
+  margin: 3px;
+  text-align: center;
+}
+.message {
+  background-color: hsl(243, 100%, 93%);
+  color: hsl(243, 100%, 80%);
+  border-radius: 15px;
+  padding: 20px 30px;
+  font-weight: bold;
+  position: absolute;
+  width: 110px;
+  margin-left: 50px;
+  bottom: -30px;
+}
+.message span:first-child {
+  font-size: 2em;
+  color: black;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(./images/bg-desktop.png);
+    background-position: 0% 114%;
+    background-size: contain;
+  }
+  .window {
+    float: left;
+    padding: 50px;
+  }
+  .progress-bar {
+    width: 400px;
+  }
+  .container {
+    align-items: center;
+    flex-direction: row;
+  }
+  .right {
+    position: relative;
+    bottom: 10px;
+    text-align: left;
+  }
+  .left {
+    width: 250px;
+  }
+  .message {
+    position: absolute;
+    bottom: initial;
+    top: -50px;
+    right: 35px;
+  }
+  .message::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    border: 20px solid transparent;
+    border-right: 20px solid hsl(243, 100%, 93%);
+  }
+}
